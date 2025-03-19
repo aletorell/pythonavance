@@ -4,7 +4,8 @@ from dash import Dash, dcc, html, Input, Output, dash_table, callback
 import dash_bootstrap_components as dbc
 
 # BasicAuth
-from dash_auto import BasicAuth
+from dash_auth import BasicAuth
+
 VALID_USERNAME_PASSWORD_PAIRS = {
     'admin': 'admin',
     'user' : 'user'
