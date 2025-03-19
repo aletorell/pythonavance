@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 # BasicAuth
 from dash_auto import BasicAuth
 VALID_USERNAME_PASSWORD_PAIRS = {
-    'admin': 'admin'
+    'admin': 'admin',
     'user' : 'user'
 }
 
