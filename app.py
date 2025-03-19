@@ -5,6 +5,7 @@ import dash_bootstrap_components as dbc
 
 # Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+serveur = app.server
 
 # Load data
 # Assuming you have a CSV file with the data
@@ -283,4 +284,4 @@ def update_graphs(categories, locations):
             location_fig, coupon_fig, discount_fig, table_data)
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8050)
+    app.run_server(debug=True)
